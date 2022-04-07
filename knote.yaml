@@ -17,7 +17,8 @@ spec:
     spec:
       containers:
         - name: app
-          image: learnitguide/knotejs:1.0
+          #image: learnitguide/knotejs:1.0
+          image: 678878256416.dkr.ecr.us-east-1.amazonaws.com/jenkins_pipeline_build_demo:v1.0
           ports:
             - containerPort: 3000
           env:
